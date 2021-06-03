@@ -4,8 +4,8 @@ import products from './data/products.json'
 
 function App() {
   return (
-    <div className="bg-gray-200 dark:bg-gray-800">
-      <div className="w-full md:w-2/4 mx-auto pt-4 pb-4">
+    <div className="bg-gray-200 py-4 dark:bg-gray-800">
+      <div className="md:w-1/2 mx-2 md:mx-auto">
         {products.map((product) => (
           <Product product={product} key={product.id} />
         ))}
