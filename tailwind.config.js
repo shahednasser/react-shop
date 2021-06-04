@@ -12,7 +12,10 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      scale: ['group-hover'],
+      transform: ['group-hover']
+    },
   },
   plugins: [],
 };
